@@ -112,7 +112,7 @@ h2.title {
 }
 
 .waiting {
-    eight: 800px;
+    min-height: 650px;
     background: url('../img/bg/second_bg.png') center center/cover no-repeat;
     padding: 39px 0 62px;
 }
@@ -128,8 +128,8 @@ h2.title {
 
 .waiting .container .waiting_divider {
     width: 217px;
-    height: 1px;
-    border: 1px solid #f9bf3b;
+    /* height: ; */
+    border: 2px solid #f9bf3b;
     margin: 0 auto;
     margin-top: 12px;
 }
@@ -140,12 +140,15 @@ h2.title {
     font-size: 23px;
     text-align: center;
     margin-top: 17px;
+    margin-bottom: 45px ;
 }
 
-.waiting .container .laptop_left {
-    margin-top: 35px;
+.waiting .container .laptops {
+    display: flex;
+    justify-content: space-between;
 }
 
+/* 
 .img_laptop_left {
     margin-right: 48px;
 }
@@ -156,4 +159,4 @@ h2.title {
 
 .img_laptop_right {
     
-}
+} */
