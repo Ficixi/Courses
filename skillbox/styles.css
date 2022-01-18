@@ -1,0 +1,181 @@
+html, header, body {
+	padding: 0;
+	margin: 0;
+	min-width: 1000px;
+	font-family: Arial;
+}
+
+h2 {
+	font-size: 20px;
+	padding: 27px 0 27px 18px;
+	margin: 0 0 34px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.blue-bar {
+	background-color: #00122f;
+	color: white;
+	padding: 20px 0;
+}
+
+.text-bar {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.datetime {
+	float: right;
+}
+
+.blue-bar a {
+	color: white;
+}
+
+.info-container {
+
+}
+
+.fixed-container {
+	width: 960px;
+	margin: 0 auto;
+	position: sticky;
+}
+
+.logo {
+	margin: 40px 0;
+}
+
+.search-container {
+	float: right;
+}
+
+.search {
+	margin: 38px 0;
+	background-color: #f3f3f3;
+	border: 0;
+	padding-left: 21px;
+	float: right;
+	width: 289px;
+	height: 45px;
+	border-radius: 50px;
+
+}
+
+.submit {
+	position: relative;
+	top: 50px;
+	left: 280px;
+	border: 0;
+	background: no-repeat url('img/search.png')
+}
+
+.img-search {
+
+}
+
+.menu-container {
+	height: 70px;
+	margin: 0 auto;
+}
+
+.menu-container nav {
+	display: inline-block;
+}
+
+.central-container {
+	padding-top: 20px;
+	background-color: #f9f9f9;
+	background-image: url('img/shadow.png');
+	background-repeat: repeat-x;
+}
+
+.central-container .fixed-container {
+	overflow-y: hidden;
+}
+
+.column-left {
+	background-color: white;
+	width: 250px;
+	float: left;
+}
+
+	.news-item {
+		padding-left: 18px;
+		margin-bottom: 27px;
+		font-size: 14px;
+	}
+
+	.news-item-text {
+		margin-bottom: 20px;
+	}
+
+	.news-item-props {
+		position: relative;
+		font-size: 12px;
+	}
+
+	.news-item-props a {
+		color: #91919f;
+		font-size: 12px;
+	}
+
+	.news-time {
+		position: absolute;
+		top: 0;
+		left: 120px;
+		padding-left: 15px;
+		background-image: url('img/clock.png');
+		background-repeat: no-repeat;
+	}
+
+	.news-comments {
+		position: absolute;
+		top: 0;
+		left: 180px;
+		padding-left: 15px;
+		background-image: url('img/chat.png');
+		background-repeat: no-repeat;
+	}
+
+.column-center {
+	background-color: green;
+	width: 420px;
+	margin-left: 20px;
+	float: left;
+}
+
+.column-right {
+	width: 250px;
+	float: right;
+}
+
+.column-right img {
+	margin-bottom: 20px;
+}
+
+.special-news {
+	padding-bottom: 20px;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+}
+
+.up {
+	color: aqua;
+	text-align:center;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding-top: 8px;
+	background-color: gray;
+	border: 0;
+	border-radius: 30px;
+}
+
+footer {
+	background-color: #00122f;
+	color: white;
+	padding: 20px 0;
+}
