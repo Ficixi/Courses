@@ -22,7 +22,7 @@
 
 .logo .logo_text {
     color: #fff;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 15px;
     font-weight: 500px;
     line-height: 24px;
@@ -122,7 +122,7 @@ h2.title {
     text-transform: uppercase;
     text-align: center;
     margin-top: 83px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 30px;
 }
 
@@ -135,7 +135,7 @@ h2.title {
 
 .waiting .waiting_subheader {
     color: #4a4a4a;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 23px;
     text-align: center;
     margin-top: 17px;
@@ -165,4 +165,8 @@ h2.title {
     font-style: normal;
     line-height: 1.4;
     letter-spacing: normal;
+}
+
+.optimization {
+    min-height: 550px;
 }
