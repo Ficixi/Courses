@@ -117,7 +117,7 @@ h2.title {
     padding: 39px 0 62px;
 }
 
-.waiting .container h2 {
+.waiting h2 {
     color: #252525;
     text-transform: uppercase;
     text-align: center;
@@ -126,37 +126,43 @@ h2.title {
     font-size: 30px;
 }
 
-.waiting .container .waiting_divider {
+.waiting .waiting_divider {
     width: 217px;
-    /* height: ; */
     border: 2px solid #f9bf3b;
     margin: 0 auto;
     margin-top: 12px;
 }
 
-.waiting .container .waiting_subheader {
+.waiting .waiting_subheader {
     color: #4a4a4a;
     font-family: Roboto;
     font-size: 23px;
     text-align: center;
     margin-top: 17px;
-    margin-bottom: 45px ;
 }
 
-.waiting .container .laptops {
+.waiting .waiting_wrapper {
     display: flex;
     justify-content: space-between;
+    margin-top: 45px;
 }
 
-/* 
-.img_laptop_left {
-    margin-right: 48px;
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
+    text-align: center;
 }
 
-.img_laptop_center {
-    margin-right: 48px;
+.waiting .waiting_wrapper .waiting_item img {
+    width: 100%;
 }
 
-.img_laptop_right {
-    
-} */
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+}
