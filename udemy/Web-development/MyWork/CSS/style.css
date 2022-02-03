@@ -75,23 +75,25 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_wrapper .gift_btn {
     display: block;
     margin: 73px auto;
     width: 313px;
     height: 72px;
-    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
-    border: 4px solid rgba(0, 0, 0, 0.23);
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.18);
+    border: 0;
+    border-radius: 5px;
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     color: #fff;
-    font-family: "Roboto-Condensed";
+    font-family: "Roboto";
     font-size: 21px;
-    line-height: 24px;
+    line-height: 1.14px;
     text-transform: uppercase;
     font-weight: 400;
     cursor: pointer;
     outline: none;
 }
+
 
 .more {
     margin-top: 73px;
@@ -260,4 +262,90 @@ h2.title {
     font-family: "Roboto";
     line-height: 1.18;
     color: #efefef;
+}
+
+.gift {
+    min-height: 628px;
+    background-color: #efefef;
+}
+
+.gift .gift_wrapper {
+    text-align: center;
+}
+
+.gift .gift_wrapper .gift_img {
+    margin-top: 86px;
+    width: 154px;
+    height: 173px;
+}
+
+.gift .gift_wrapper .gift_text {
+    margin-top: 42px;
+    width: 1131px;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.43;
+}
+
+.gift .gift_wrapper .gift_btn {
+    margin-top: 52px;
+}
+
+.deadline .deadline_wrapper{
+    text-align: center;
+    min-height: 515px;
+}
+
+.deadline .deadline_wrapper .deadline_img {
+    width: 342px;
+    height: 201px;
+    margin-top: 82px;
+}
+
+.deadline .deadline_wrapper h2 {
+    min-width: 447px;
+    min-height: 27px;
+    margin-top: 37px;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.4;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+.deadline .deadline_wrapper .deadline_date {
+    margin-top: 30px;
+    min-width: 577px;
+    min-height: 26px;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #299cbd;
+    text-transform: uppercase;
+}
+
+.deadline .deadline_wrapper .deadline_text {
+    margin-top: 25px;
+    min-width: 548px;
+    min-height: 23px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
 }
