@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 .promo {
     height: 800px;
     background: url('../img/bg/bg.png') center center/cover no-repeat;
@@ -23,7 +27,6 @@
 
 .logo .logo_text {
     color: #fff;
-    font-family: "Roboto";
     font-size: 15px;
     font-weight: 500px;
     line-height: 24px;
@@ -34,7 +37,6 @@
 
 .title {
     color: #f9bf3b;
-    font-family: "Roboto-Black";
     font-size: 41px;
     font-weight: 400;
     line-height: 24px;
@@ -49,7 +51,6 @@ h2.title {
 
 .simple .title_big {
     color: #fff;
-    font-family: "Roboto-Black";
     font-size: 80px;
     font-weight: 400;
     text-transform: uppercase;
@@ -62,7 +63,6 @@ h2.title {
     font-size: 21px;
     font-weight: 300;
     line-height: 28px;
-    font-family: "Roboto Light";
     text-align: center;
     margin-top: 23px;
     padding: 0 13px;
@@ -71,7 +71,6 @@ h2.title {
 .promo .promo_text span {
     color: #f9bf3b;
     text-transform: uppercase;
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 
@@ -80,12 +79,12 @@ h2.title {
     margin: 73px auto;
     width: 313px;
     height: 72px;
-    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.18);
-    border: 0;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
     border-radius: 5px;
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
     color: #fff;
-    font-family: "Roboto";
     font-size: 21px;
     line-height: 1.14px;
     text-transform: uppercase;
@@ -101,7 +100,6 @@ h2.title {
 
 .more .more_text {
     color: #fff;
-    font-family: "Roboto - Thin";
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -125,8 +123,9 @@ h2.title {
     text-transform: uppercase;
     text-align: center;
     margin-top: 83px;
-    font-family: "Roboto";
     font-size: 30px;
+    font-weight: normal;
+
 }
 
 .waiting .waiting_divider, .finish .finish_divider {
@@ -138,7 +137,6 @@ h2.title {
 
 .waiting .waiting_subheader {
     color: #4a4a4a;
-    font-family: "Roboto";
     font-size: 23px;
     text-align: center;
     margin-top: 17px;
@@ -185,7 +183,6 @@ h2.title {
     width: 750px;
     margin-left: 391px;
     text-transform: uppercase;
-    font-family: Roboto;
     font-size: 30px;
     font-weight: 900;
     color: #299cbd;
@@ -204,7 +201,6 @@ h2.title {
     line-height: 1.3;
     letter-spacing: normal;
     text-align: justify;
-    font-family: "Roboto-Light";
 }
 
 .optimization .optimization_text span {
@@ -259,7 +255,6 @@ h2.title {
     text-align: center;
     font-size: 17px;
     font-weight: 300;
-    font-family: "Roboto";
     line-height: 1.18;
     color: #efefef;
 }
@@ -282,7 +277,6 @@ h2.title {
 .gift .gift_wrapper .gift_text {
     margin-top: 42px;
     width: 1131px;
-    font-family: "Roboto";
     font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
@@ -293,6 +287,8 @@ h2.title {
 
 .gift .gift_wrapper .gift_btn {
     margin-top: 52px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border: none;
 }
 
 .deadline .deadline_wrapper{
@@ -310,7 +306,6 @@ h2.title {
     min-width: 447px;
     min-height: 27px;
     margin-top: 37px;
-    font-family: "Roboto";
     font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
@@ -324,7 +319,6 @@ h2.title {
     margin-top: 30px;
     min-width: 577px;
     min-height: 26px;
-    font-family: "Roboto";
     font-size: 36px;
     font-weight: 900;
     font-stretch: normal;
@@ -340,7 +334,6 @@ h2.title {
     margin-top: 25px;
     min-width: 548px;
     min-height: 23px;
-    font-family: Roboto;
     font-size: 23px;
     font-weight: normal;
     font-stretch: normal;
@@ -349,3 +342,50 @@ h2.title {
     letter-spacing: normal;
     text-align: center;
 }
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 166px;
+    background-color: #1a1a1a;
+    color: #888;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.bottom ul, .bottom span {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+    
+}
+
+.bottom li:not(:nth-last-child(-n+1))::after {
+    content: '\007C';
+    margin-left: 14px;
+    
+}
+
+.bottom li {
+    margin-right: 14px;
+    white-space: nowrap;
+}
+
+.bottom a {
+    
+    text-decoration: none;
+    color:#888;
+}
+
+.bottom a:hover {
+    color:#885;
+}
+
+.bottom a:active {
+    color:rgb(255, 255, 0);
+    text-decoration:underline;
+}
+
