@@ -5,10 +5,14 @@
 header {
     position: relative;
     height: 50px;
-    background-color: #212121;
 }
 
-
+nav {
+    position: fixed;
+    background-color: #212121;
+    width: 100%;
+    z-index: 2;
+}
 
 .menu {
     display: flex;
@@ -22,7 +26,9 @@ header {
     font-size: 15px;
     font-weight: 300;
     color: #fff;
+    text-decoration: none;
 }
+
 
 .menu .menu_item {
     border-right: 2px dotted black;
@@ -89,7 +95,7 @@ header {
 .promo {
     min-height: 800px;
     padding: 150px 0 135px 0;
-    background: url(../img/bg/Layer\ 1.png) center center/cover no-repeat;
+    background: url(../img/bg/Layer1.png) center center/cover no-repeat;
 }
 
 .promo .promo_header {
