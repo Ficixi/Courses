@@ -1,0 +1,10 @@
+@mixin btn_active {
+	&:active {
+		background-image: none;
+		background-color: $color_1;
+		transform: rotate3d(3%);
+	}
+}
+@mixin a_hover {
+	color: $color_1;
+}
