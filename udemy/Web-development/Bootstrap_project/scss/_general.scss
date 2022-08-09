@@ -6,8 +6,17 @@ header {
 nav {
 	position: fixed;
 	background-color: #212121;
+	height: 50px;
 	width: 100%;
 	z-index: 3;
+}
+
+.hidden-menu-ticker {
+	display: none;
+}
+
+.hamburger {
+	display: none;
 }
 
 a {
@@ -90,14 +99,17 @@ a {
 		border: none;
 		border-radius: 5px;
 		box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0, 0.11);
-		@include btn_active;
+		// @include btn_active;
 	}
+}
+.xs-visible {
+	display: none;
 }
 
 .promo {
 	min-height: 800px;
 	padding: 150px 0 135px 0;
-	background: url(../img/bg/Layer1.png) center (center / cover) no-repeat;
+	background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5) ), url(../img/bg/Layer1.png) center (center / cover) no-repeat;
 
 	&_header {
 		font-size: 60px;
@@ -143,7 +155,7 @@ a {
 		text-transform: uppercase;
 		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
 		color: #ffffff;
-		@include btn_active;
+		// @include btn_active;
 	}
 	
 }
@@ -222,7 +234,7 @@ a {
 
 	&_descr {
 		text-align: justify;
-		max-width: 343px;
+		width: 343px;
 	}
 
 	&_subtitle {
@@ -374,9 +386,9 @@ a {
 		li {
 			margin-top: 10px;
 			position: relative;
-			font-size: 17px;
+			font-size: 1rem;
 			font-weight: 300;
-			line-height: 24px;
+			line-height: 1.5;
 			&:before {
 				content:'';
 				display: block;
