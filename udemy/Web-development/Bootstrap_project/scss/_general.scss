@@ -1,8 +1,15 @@
+body {	
+	a:hover {
+		color: $color_1;
+	}
+}
 header {
 	position: relative;
 	height: 50px;
 }
-
+a:hover {
+	color: $color_1;
+}
 nav {
 	position: fixed;
 	background-color: #212121;
@@ -42,6 +49,9 @@ a {
 		font-weight: 300;
 		color: #fff;
 		text-decoration: none;
+		&:hover {
+			color: $color_1;
+		}
 	}
 }
  
@@ -85,6 +95,9 @@ a {
 		font-size: 22px;
 		text-align: right;
 		line-height: 12px;
+		&:hover {
+			color: $color_1;
+		}
 	}
 
 	&_btn {
