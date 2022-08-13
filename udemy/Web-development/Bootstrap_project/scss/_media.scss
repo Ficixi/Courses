@@ -251,9 +251,16 @@
    nav {
       text-align: center;
       height: 30px;
-   }
-   .menu {
-      width: 80%;
+      .menu {
+         width: 80%;
+         &_item {
+            width: 100%;
+         }
+         &_link {
+            display: block;
+         }
+      }
+
    }
    .hamburger {
       height: 11px;
